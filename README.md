@@ -92,7 +92,10 @@ Each image contains:
 - Bounding boxes around detected biscuits  
 - Labels indicating:  
   - Intact Biscuit  
-  - Broken Biscuit  
+  - Broken Biscuit
+    <img width="600" height="800" alt="result_IMG_1" src="https://github.com/user-attachments/assets/452177ec-f1fc-459c-b083-88c7f4f5c6a5" />
+ <img width="600" height="800" alt="result_IMG_7" src="https://github.com/user-attachments/assets/f70328e8-aae0-4e1f-a696-ff9188764c55" />
+
 
 All biscuits in the image are detected and classified based on their shape.
 
