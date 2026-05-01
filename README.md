@@ -67,28 +67,32 @@ The system performs the following steps:
 7. Draw bounding boxes and labels on output images  
 
 ---
-
 ## ▶️ How to Run
 
 1. Open **Anaconda Prompt**
 
-2. Activate your environment:
-```bash
-conda activate ee4216
-3. Launch Jupyter Notebook:
-jupyter notebook
-4. Open:
-biscuit_detection.ipynb
-5. Run all cells
+2. Activate your environment:  
+conda activate ee4216  
+
+3. Launch Jupyter Notebook:  
+jupyter notebook  
+
+4. Open:  
+biscuit_detection.ipynb  
+
+5. Run all cells  
+
+---
+
 ## 📤 Output
 
 The processed images are saved in the `output images` folder.
 
 Each image contains:
-- Bounding boxes around detected biscuits
-- Labels indicating:
-  - Intact Biscuit
-  - Broken Biscuit
+- Bounding boxes around detected biscuits  
+- Labels indicating:  
+  - Intact Biscuit  
+  - Broken Biscuit  
 
 All biscuits in the image are detected and classified based on their shape.
 
