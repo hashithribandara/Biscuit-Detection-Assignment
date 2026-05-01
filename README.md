@@ -2,7 +2,6 @@
 Broken and Intact Biscuit Detection using Image Processing
 # 🍪 Broken Biscuit Detection using Image Processing
 
-# 🍪 Broken Biscuit Detection using Image Processing
 
 ## 📌 Problem Description
 This project detects biscuits in images and classifies them as either **Intact Biscuit** or **Broken Biscuit**.
