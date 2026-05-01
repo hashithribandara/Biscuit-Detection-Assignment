@@ -23,4 +23,55 @@ Each image includes:
 - A mix of **intact and broken biscuits**
 - Different arrangements for variation
 
-📁 Input images are stored in:
+📁 Input images are stored in:input images/
+
+---
+
+## 🛠 Tools and Libraries
+- Python  
+- OpenCV  
+- NumPy  
+- Jupyter Notebook (Anaconda)
+
+---
+
+## 🧠 Methods Used
+The following classical image processing techniques were applied:
+
+- Image resizing  
+- Color detection using HSV color space  
+- Color thresholding  
+- Morphological operations (Opening, Closing)  
+- Contour detection  
+- Shape analysis using:
+  - Circularity  
+  - Aspect ratio  
+  - Solidity  
+  - Extent  
+  - Missing area ratio  
+- Rotated bounding box analysis (for square biscuits)
+
+---
+
+## ⚙️ Detection Approach
+The system performs the following steps:
+
+1. Preprocess the image (resize and color conversion)  
+2. Segment biscuit regions using HSV thresholding  
+3. Apply morphological operations to remove noise  
+4. Detect contours representing biscuits  
+5. Extract shape features from each contour  
+6. Classify each biscuit as:
+   - ✅ Intact Biscuit  
+   - ❌ Broken Biscuit  
+7. Draw bounding boxes and labels on output images  
+
+---
+
+## ▶️ How to Run
+
+1. Open **Anaconda Prompt**
+
+2. Activate your environment:
+```bash
+conda activate ee4216
